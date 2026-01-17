@@ -1,0 +1,12 @@
+/vendor/
+logs
+.env
+.DS_Store
+.idea/
+*.log
+node_modules/
+.cache/
+*.tmp
+public/build/
+cache/
+*.bladec

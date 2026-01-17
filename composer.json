@@ -1,0 +1,20 @@
+{
+  "name": "capteze/cn-php",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Core\\": "core/"
+    }
+  },
+  "require": {
+    "eftec/bladeone": "^4.19",
+    "composer/composer": "^2.9"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "captEze",
+      "email": "ezetheophilus05@gmail.com"
+    }
+  ]
+}

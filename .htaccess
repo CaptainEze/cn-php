@@ -1,0 +1,7 @@
+# This directive is only valid for Apache servers, ensure that mod_rewrite is
+enabled # The directive points all request to index.php. # See docs for details
+for other server configs
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On RewriteRule ^ index.php [L]
+</IfModule>
